@@ -3,6 +3,24 @@ body {
   font-size: "Nunito", sans-serif;
 }
 
+h2 {
+  color: #ea1c2c;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+p {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 200;
@@ -24,12 +42,16 @@ body {
 
 #headingGroup h1 {
   color: white;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 4rem;
 }
 
 #headingGroup span {
   color: #ea1c2c;
+}
+
+.navbar .scrolled {
+  background: #e4bee0;
 }
 
 @media (max-width: 1200px) {
